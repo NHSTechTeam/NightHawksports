@@ -36,7 +36,7 @@
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 700;
-		color: #484d55;
+		color: #028482;
 	}
 	
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -359,7 +359,7 @@
 			input[type="reset"].style1,
 			.button.style1
 			{
-				background: #e97770 url('images/overlay.png');
+				background: #028482 url('images/overlay.png');
 				color: #fff;
 			}
 
@@ -502,7 +502,7 @@
 
 			.feature-list h3
 			{
-				color: #e97770 !important;
+				color: #028482 !important;
 			}
 			
 				.feature-list h3:before
@@ -510,7 +510,7 @@
 					position: relative;
 					display: inline-block;
 					color: #fff;
-					background: #2f333b url('images/overlay.png');
+					background: #028482 url('images/overlay.png');
 					border-radius: 1em;
 					text-align: center;
 				}
@@ -589,14 +589,16 @@
 
 		.wrapper.style1
 		{
-			background: #e97770 url('images/overlay.png');
-			color: #eee;
-			color: rgba(255,255,255,0.75);
+			background: 
+#028482 url('images/overlay.png');
+			color: #fff;
+			color: rgba(250,250,250,0.75);
 		}
 		
 			.wrapper.style1 .title
 			{
-				background: #e97770 url('images/overlay.png');
+				background: 
+#028482 url('images/overlay.png');
 				color: #fff;
 			}
 		
@@ -632,7 +634,7 @@
 			.wrapper.style3 .title
 			{
 				background: #f3f3f3 url('images/overlay.png');
-				color: #484d55;
+				color: #028482;
 			}
 			
 			.wrapper.style3 .image
@@ -838,7 +840,7 @@
 		
 			#highlights .highlight h3
 			{
-				color: #e97770;
+				color: #028482;
 			}
 
 /*********************************************************************************/
