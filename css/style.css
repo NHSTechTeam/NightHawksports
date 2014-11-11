@@ -368,7 +368,7 @@
 				input[type="reset"].style1:hover,
 				.button.style1:hover
 				{
-					background-color: #f98780;
+					background-color: #cccc00;
 				}
 				
 				input[type="button"].style1:active,
@@ -394,7 +394,7 @@
 				input[type="reset"].style2:hover,
 				.button.style2:hover
 				{
-					box-shadow: inset 0px 0px 2px 0px #606167;
+					box-shadow: inset 0px 0px 2px 0px #cccc00;
 				}
 			
 				input[type="button"].style2:active,
@@ -419,7 +419,7 @@
 				input[type="reset"].style3:hover,
 				.button.style3:hover
 				{
-					background-color: #3f434b;
+					background-color: #cccc00;
 				}
 				
 				input[type="button"].style3:active,
