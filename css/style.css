@@ -602,6 +602,10 @@
 				color: #fff;
 			}
 		
+		.wrapper.style1 .image
+			{
+				border: solid 10px #fff;
+			}
 			.wrapper.style1 h1,
 			.wrapper.style1 h2,
 			.wrapper.style1 h3,
@@ -624,6 +628,10 @@
 			{
 				background: #fff;
 				color: #484d55;
+			}
+			.wrapper.style2 .image
+			{
+				border: solid 10px #fff;
 			}
 		
 		.wrapper.style3
