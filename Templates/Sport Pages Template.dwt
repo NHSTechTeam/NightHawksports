@@ -16,6 +16,26 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+        <script type="text/javascript" src="modernizr.custom.min.js"></script>    
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    	<script src="../jquery.wmuSlider.js"></script>
+    	<script src="../jquery.wmuGallery.js"></script>
+    	<script>
+        $('.example1').wmuSlider(); 
+         
+        $('.example2').wmuSlider({
+            touch: true,
+            animation: 'slide'
+        });   
+        
+        $('.example3').wmuSlider({
+            touch: Modernizr.touch,
+            animation: 'slide',
+            items: 2
+        });
+        
+        $('.example4').wmuGallery();
+    </script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -23,10 +43,10 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body class="no-sidebar">
+<body class="left-sidebar">
 
 		<!-- Header -->
-			<div id="header-wrapper" class="wrapper">
+<div id="header-wrapper" class="wrapper">
 				<div id="header">
 					
 					<!-- Logo -->
@@ -78,11 +98,11 @@
                                                 <li><a href="http://stats.ciacsports.com/cgi-bin/schedule-1415.cgi?school=Newtown&fonts=&heads=&sport=girls-fieldhockey&levels=JV&combine_time_results=1&show_bus_info=1">Junior Varsity</a></li>
                                                 <li><a href="http://stats.ciacsports.com/cgi-bin/schedule-1415.cgi?school=Newtown&fonts=&heads=&sport=girls-fieldhockey&levels=FR&combine_time_results=1&show_bus_info=1">Freshman</a></li>
 											</ul>
-                                            </li>
+                                      </li>
                                         <li><a href="#">Girls Swimming</a> 
                                         <ul>
 												<li><a href="http://stats.ciacsports.com/cgi-bin/schedule-1415.cgi?school=Newtown&fonts=&heads=&sport=girls-swimming&levels=V&combine_time_results=1&show_bus_info=1">Varsity</a></li>
-											</ul>
+										  </ul>
                                         </li>
                                         <li><a href="#">Girls Volleyball</a>
                                         	<ul>
@@ -155,203 +175,127 @@
                                         <li><a href="http://www.casciac.org/scripts/schedule-1314.cgi?school=Newtown&sport=boys-tennis&levels=V&combine_time_results=1&show_bus_info=1">Boys Tennis</a></li>
                                         <li><a href="http://www.casciac.org/scripts/schedule-1314.cgi?school=Newtown&sport=girls-tennis&levels=V&combine_time_results=1&show_bus_info=1">Girls Tennis</a></li>
                                 </ul>
-                                		<li><a class="icon fa-twitter" href="https://twitter.com/nhsathletics"></a></li>
+                       		  <li><a class="icon fa-twitter" href="https://twitter.com/nhsathletics"></a></li>
                                 </li>
 							</ul>
 						</nav>
-
 				</div>
-			</div>
-		
-		<!-- Main -->
-			<div class="wrapper style2">
-				<div class="title">Spring Sports</div>
-				<div id="main" class="container">
-							
-					<!-- Content -->
-						<div id="content">
-							<article class="box post">
-								<header class="style1">
-								  <h2>Put something Important here.</h2>
-								  <p>Something will go here.</p>
-								</header>
-								<a href="#" class="image featured">
-								</a>
-								<p>This is where you can post stuff.</p>
-</article>
-						</div>
-			  </div>
-			</div>
-
-		<!-- Varsity -->
-			<div class="wrapper style1">
-				<div class="title">Varsity Sports</div>
-				<div id="highlights" class="container">
-					<div class="row 150%">
-						<div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Baseball</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Boys Lacrosse</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Girls Lacrosse</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-                        <div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Softball</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-                        <div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Golf</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-                        <div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Boys Track</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-                        <div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Girls Track</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-                        <div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Boys Tennis</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-                        <div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Girls Tennis </a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-					</div>
-				</div>
-			</div>
-            
-            
-            		<!-- JV -->
-		<div class="wrapper style2">
-				<div class="title">Junior Varsity Sports</div>
-				<div id="highlights" class="container">
-					<div class="row 150%">
-						<div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3>Baseball</h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Boys Lacrosse</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-                        <div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Girls Lacrosse</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-                        <div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Softball</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-					</div>
-				</div>
-	</div>
-            
-            <!-- Freshman -->
-	<div class="wrapper style3">
-				<div class="title">Freshman Sports</div>
-				<div id="highlights" class="container">
-					<div class="row 150%">
-						<div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Baseball</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-								</ul>
-							</section>
-						</div>
-                        <div class="4u">
-							<section class="highlight">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Softball</a></h3>
-								<ul class="actions">
-		    <li><a href="" class="button style3">Schedule</a></li>
-							  </ul>
-							</section>
-						</div>
-					</div>
-				</div>
-			</div>
-            
-<!-- Footer -->
-			<div id="footer-wrapper" class="wrapper">
+		</div>
+			<!-- TemplateBeginEditable name="Editable" -->
+			<!-- Main -->
+            <div class="wrapper style2">
+              <div class="title">Left Sidebar</div>
+              <div id="main" class="container">
+                <div class="row 150%">
+                  <div class="4u">
+                    <!-- Sidebar -->
+                    <div id="sidebar">
+                      <section class="box">
+                        <a href="#" class="button style1">Schedule</a> </section>
+                      <section class="box">
+                        <header>
+                          <h2>Recent Games</h2>
+                          <h3>Newtown Vs.</h3>
+                        </header>
+                        <ul class="style2">
+                          <li>
+                            <article class="box post-excerpt"> <a href="#" class="image left"><img src="images/pic08.jpg" alt="" /></a>
+                              <h3><a href="#">Diam odio lorem</a></h3>
+                              <p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>
+                            </article>
+                          </li>
+                          <li>
+                            <article class="box post-excerpt"> <a href="#" class="image left"><img src="images/pic09.jpg" alt="" /></a>
+                              <h3><a href="#">Sed duis consequat</a></h3>
+                              <p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>
+                            </article>
+                          </li>
+                          <li>
+                            <article class="box post-excerpt"> <a href="#" class="image left"><img src="images/pic09.jpg" alt="" /></a>
+                              <h3><a href="#">Sed duis consequat</a></h3>
+                              <p>Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. Pellentesque at urna eget tellus sed etiam.</p>
+                            </article>
+                          </li>
+                        </ul>
+                        <p><a href="#" class="button style1">Watch Full Games</a></p>
+                        </section>
+                    </div>
+                  </div>
+                  <div class="8u important(collapse)">
+                    <!-- Content -->
+                    <div id="content">
+                      <article class="box post">
+                        <header class="style1">
+                          <h2>Lorem ipsum dolor sit amet magna egestas morbi bibendum sed malesuada</h2>
+                          <p>Tempus feugiat veroeros sed nullam dolore</p>
+                        </header>
+                        <a href="#" class="image featured"> <img src="images/pic01.jpg" alt="" /> </a>
+                        <p>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+                          odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum 
+                          facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam 
+                          tempus euismod. Vestibulum ante ipsum primis in faucibus.</p>
+                        <p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque 
+                          habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi 
+                          bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh 
+                          lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. 
+                          Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non 
+                          magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat 
+                          leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit 
+                          amet risus elit.</p>
+                        <p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra 
+                          ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci 
+                          eget quam rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus 
+                          eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis 
+                          tincidunt felis sagittis eget. Donec elementum ligula dignissim sem pulvinar non semper 
+                          odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum 
+                          facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam 
+                          tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices 
+                          posuere cubilia.</p>
+                        <p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque 
+                          habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi 
+                          bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh 
+                          lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor. 
+                          Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non 
+                          magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat 
+                          leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit 
+                          amet risus elit.</p>
+                      </article>
+                      <div class="row 150%">
+                        <div class="6u">
+                          <section class="box">
+                            <header>
+                              <h2>Magna pulvinar tempus</h2>
+                            </header>
+                            <a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+                            <p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus 
+                              eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis 
+                              tempus.</p>
+                            <a href="#" class="button style1">More</a> </section>
+                        </div>
+                        <div class="6u">
+                          <section class="box">
+                            <header>
+                              <h2>Magna pulvinar tempus</h2>
+                            </header>
+                            <a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+                            <p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus 
+                              eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis 
+                              tempus.</p>
+                            <a href="#" class="button style1">More</a> </section>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			<!-- TemplateEndEditable -->
+		<!-- Footer -->
+		<div id="footer-wrapper" class="wrapper">
 				<div class="title">Contact Us</div>
 				<div id="footer" class="container">
 					<div class="row 150%">
-						<div class="12u">
+					  <div class="12u">
 						
 							<!-- Contact -->
 								<section class="feature-list small">
@@ -361,7 +305,7 @@
 												<h3 class="icon fa-home">Mailing Address</h3>
 												<p>
 													12 Berkshire Rd,<br> Newtown CT, 06482
-												</p>
+											  </p>
 											</section>
 										</div>
 										<div class="6u">
@@ -379,7 +323,7 @@
 												<h3 class="icon fa-envelope">Email</h3>
 												<p>
 													<a href="mailto:simong@newtown.k12.ct.us">simong@newtown.k12.ct.us</a>
-                                                </p>
+                                              </p>
                                                 <p>
                                                     <a href="mailto:straite@newtown.k12.ct.us">straite@newtown.k12.ct.us</a>
 												</p>
@@ -390,7 +334,7 @@
 												<h3 class="icon fa-phone">Phone</h3>
 												<p>
 													(203) 426-7646
-												</p>
+											  </p>
 											</section>
 										</div>
 									</div>
@@ -405,7 +349,7 @@
 						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
-			</div>
+</div>
 
-	</body>
+</body>
 </html>
