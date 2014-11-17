@@ -16,26 +16,10 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
-        <script type="text/javascript" src="modernizr.custom.min.js"></script>    
+        <script type="text/javascript" src="../modernizr.custom.min.js"></script>    
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    	<script src="../jquery.wmuSlider.js"></script>
-    	<script src="../jquery.wmuGallery.js"></script>
-    	<script>
-        $('.example1').wmuSlider(); 
-         
-        $('.example2').wmuSlider({
-            touch: true,
-            animation: 'slide'
-        });   
-        
-        $('.example3').wmuSlider({
-            touch: Modernizr.touch,
-            animation: 'slide',
-            items: 2
-        });
-        
-        $('.example4').wmuGallery();
-    </script>
+    	<script src="jquery.wmuSlider.js"></script>
+    	<script src="jquery.wmuGallery.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
