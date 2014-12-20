@@ -51,6 +51,7 @@
 										<li><a href="http://casciac.org/pdfs/SampleConcussionConsentForm.pdf">Concussion Consent Form</a></li>
                                         <li><a href="fundraisingform.pdf">Fundraising Form</a></li>
                                         <li><a href="https://docs.google.com/a/newtown.k12.ct.us/document/d/1xgWkFncUq1y6oq0LXrQ8oSX6-CCxDbpJrh43n6gJ7_Y/edit?usp=sharing">Consent To Treat Form</a></li>
+                                        <li><a href="State Health Assessment Record.pdf">Physical Form</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="fallsports.html">Fall Sports</a>
@@ -82,11 +83,11 @@
                                                 <li><a href="http://stats.ciacsports.com/cgi-bin/schedule-1415.cgi?school=Newtown&fonts=&heads=&sport=girls-fieldhockey&levels=JV&combine_time_results=1&show_bus_info=1">Junior Varsity</a></li>
                                                 <li><a href="http://stats.ciacsports.com/cgi-bin/schedule-1415.cgi?school=Newtown&fonts=&heads=&sport=girls-fieldhockey&levels=FR&combine_time_results=1&show_bus_info=1">Freshman</a></li>
 											</ul>
-                                      </li>
+                                            </li>
                                         <li><a href="#">Girls Swimming</a> 
                                         <ul>
 												<li><a href="http://stats.ciacsports.com/cgi-bin/schedule-1415.cgi?school=Newtown&fonts=&heads=&sport=girls-swimming&levels=V&combine_time_results=1&show_bus_info=1">Varsity</a></li>
-										  </ul>
+											</ul>
                                         </li>
                                         <li><a href="#">Girls Volleyball</a>
                                         	<ul>
@@ -159,7 +160,7 @@
                                         <li><a href="http://www.casciac.org/scripts/schedule-1314.cgi?school=Newtown&sport=boys-tennis&levels=V&combine_time_results=1&show_bus_info=1">Boys Tennis</a></li>
                                         <li><a href="http://www.casciac.org/scripts/schedule-1314.cgi?school=Newtown&sport=girls-tennis&levels=V&combine_time_results=1&show_bus_info=1">Girls Tennis</a></li>
                                 </ul>
-                       		  <li><a class="icon fa-twitter" href="https://twitter.com/nhsathletics"></a></li>
+                                		<li><a class="icon fa-twitter" href="https://twitter.com/nhsathletics"></a></li>
                                 </li>
 							</ul>
 						</nav>
@@ -330,7 +331,7 @@
 				</div>
 				<div id="copyright">
 					<ul>
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Newtown High School Athletics</li><li>Design: <a href="http://nhstech.us">Newtown High School Technology Team</a></li>
 					</ul>
 				</div>
 </div>
